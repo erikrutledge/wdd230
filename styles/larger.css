@@ -1,0 +1,26 @@
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+    h2 {
+        text-align: left;
+        grid-column: 1/4;
+    }
+    h3 {
+        margin: 0;
+    }
+    main .card{
+        max-width: 700px;
+    }
+    p {
+        text-align: center;
+    }
+
+}
