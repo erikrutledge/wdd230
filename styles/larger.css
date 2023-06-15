@@ -2,10 +2,16 @@
     body {
         overflow-x: hidden;
     }
-    nav ul {
-        display: flex;
+    #menu {
+        display: none;
     }
-    nav ul li {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+    }
+    .navigation li {
+        display: flex;
         flex: 1 1 100%;
     }
     main {

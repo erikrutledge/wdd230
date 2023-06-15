@@ -1,6 +1,24 @@
+:root {
+/* LIGHT THEME */
+    --bg: #fff;
+    --accent1: #d5bdaf;
+    --accent2: #e3d5ca;
+    --accent3: #edede9;
+    --text: #000;
+/* DARK THEME */
+    /* --bg: #000;
+    --accent1: #243242;
+    --accent2: #3a5573;
+    --accent3: #486689; 
+    --text: #fff*/
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 img {
@@ -12,22 +30,54 @@ header {
     justify-content: center;
     padding: 10px;
     gap: 50px;
-    background-color:#d5bdaf;
+    color: var(--text);
+    background-color:var(--accent1);
 }
-nav {
-    margin-top: -16px;
-    background-color: #e3d5ca;
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid var(--text);
+	padding: 3px 7px 6px;
+ 	position: absolute;
+	top: 7rem;
+	right: 1rem;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "❌";
+    justify-content: center;
 }
 
-nav a {
+.navigation li {
+	display: none;
+}
+.navigation {
+    margin: 0;
+    background-color: var(--accent2);
+}
+.navigation li a {
     display:block;
-    color:black;
+    color:var(--text);
     text-decoration: none;
     text-align: center;
     padding: 1rem;
 }
-nav a:hover {
-    background-color: #edede9;
+.navigation li a:hover {
+    background-color:var(--accent3);
+} 
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
 
 ul {
@@ -35,29 +85,32 @@ ul {
 }
 .card {
     box-shadow: 3px 3px 10px;
-    margin: 20px;
-    background-color: #e3d5ca;
+    margin: 1rem;
+    background-color: var(--accent2);
     padding-bottom: 5px;
 }
 h2 {
     text-align: center;
-    border-bottom:1px solid black;
-    margin: 20px;
+    border-bottom:1px solid var(--text);
+    margin: 1rem;
+    padding-top: 1rem;
 }
 h3 {
-    background-color: #d5bdaf;
-    padding: 20px;
+    background-color: var(--accent1);
+    padding: 1rem;
     text-align: center;
 }
 p {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    background-color:#d5bdaf;
+    margin-top: 3rem;
+    padding: 1rem;
+    color:var(--text);
+    background-color:var(--accent1);
 }
