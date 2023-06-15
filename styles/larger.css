@@ -1,4 +1,7 @@
 @media (min-width: 640px) {
+    body {
+        overflow-x: hidden;
+    }
     nav ul {
         display: flex;
     }
@@ -22,5 +25,9 @@
     p {
         text-align: center;
     }
-
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
