@@ -53,7 +53,6 @@ header {
     content: "❌";
     justify-content: center;
 }
-
 .navigation li {
 	display: none;
 }
@@ -71,7 +70,6 @@ header {
 .navigation li a:hover {
     background-color:var(--accent3);
 } 
-
 .open li {
 	display: block;
 	width: 100%;
@@ -79,7 +77,6 @@ header {
 .open li a {
 	display: block;
 }
-
 ul {
     list-style-type: none;
 }
