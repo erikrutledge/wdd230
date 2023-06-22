@@ -20,7 +20,27 @@ body {
     background-color: var(--bg);
     color: var(--text);
 }
-
+.hero {
+    position: relative;
+}
+.hero picture {
+    width: 100%;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.herolabel {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+.herolabel p {
+    font-style: italic;
+    font-weight: bolder;
+    opacity: 50%;
+    font-size: larger;
+}
 img {
     box-shadow: 3px 3px 10px;
 }
@@ -101,12 +121,17 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+iframe {
+    height: auto;
+    width: 100%;
+    margin: 1rem;
+}
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem;
     color:var(--text);
     background-color:var(--accent1);

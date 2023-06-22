@@ -7,10 +7,10 @@
     <meta name="description" content="Erik Rutledge's course assignment portal for WDD 230 - Web Frontend Development.">
     <meta name="author" content="Erik Rutledge">
 
-    <meta property="og:title" content="Erik Rutledge - WDD 230 - Web Frontend Development"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://erikrutledge.github.io/wdd230/"/>
-    <meta property="og:image" content="https://www.rexburgonline.com/wp-content/uploads/2016/07/fb-0034.jpg"/>
+    <meta property="og:title" content="Erik Rutledge - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://erikrutledge.github.io/wdd230/">
+    <meta property="og:image" content="https://www.rexburgonline.com/wp-content/uploads/2016/07/fb-0034.jpg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +22,11 @@
     <script src="scripts/getDates.js" async></script>
     <script src="scripts/responsiveHamburger.js" async></script>
     <script src="scripts/darkMode.js" async></script>
+    <script src="scripts/pageVisits.js" async></script>
 </head>
 <body>
     <header>
-        <img src="images/picture.jpg" alt="handsome man">
+        <img src="images/me.webp" alt="handsome man" loading="lazy">
         <h1>Erik Rutledge</h1>
         <div id="mode">🌚</div>
     </header>
@@ -39,13 +40,20 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-mobile.webp" media="(max-width: 640px)"> 
+                <img src="images/hero-wide.webp" alt="rexburg temple with sunset behind" width="1200" height="600">
+            </picture>
+            <div class="herolabel"><p>Rexburg Idaho Temple</p></div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
                 <li>Week 1: <a href="week01/holygrail.html">Holy Grail</a> | <a href="week01/media-query.html">Media Query</a>
                 <li>Week 2: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Erkledge/pen/oNQbBNq">Responsive Hamburger</a> | <a href="week02/bom.html">BOM DOM</a></li>
-                <li>Week 3: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">BOM Local Storage</a></li>
+                <li>Week 3: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">Local Storage</a></li>
                 <li>Week 4:</li>
                 <li>Week 5:</li>
                 <li>Week 6:</li>
@@ -55,12 +63,13 @@
             <h3>Information</h3>
             <p>Rexburg, Idaho</p>
             <p>Weather: Very Sunny and Nice</p>
-            <p>Page Visits: </p>
+            <p><span>Page Visits: </span> <span class="visits"></span></p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23028.815948148404!2d-111.78711950139153!3d43.822614416867445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1687476532752!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p id="year"></p>
-        <img src="images/usa_flag.jpg" alt="USA flag">
+        <img src="images/usa_flag.webp" alt="USA flag" loading="lazy">
         <p id="lastModified"></p>
     </footer>
 </body>
