@@ -49,6 +49,15 @@
     .card-box {
         display: block;
     }
+    .discover {
+        display: block;
+    }
+    .discovery img {
+        opacity: 100%;
+    }
+    .discovery img:hover {
+        transform: none;
+    }
 
     footer {
         bottom: auto;
