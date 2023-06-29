@@ -1,0 +1,41 @@
+body {
+	font-family: "EB Garamond", Arial, serif;
+}
+
+table {
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+    color: slateblue;
+}
+
+tr:first-child th, .highlight {
+	background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid lightgray;
+}
+
+th {
+	background-color: slateblue;
+	font-size: larger;
+    color: white;
+    border: none;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(105, 90, 205, 0.328);
+}
