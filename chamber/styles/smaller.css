@@ -49,6 +49,7 @@
     .card-box {
         display: block;
     }
+    /* DISCOVER PAGE */
     .discover {
         display: block;
     }
@@ -59,6 +60,32 @@
         transform: none;
     }
 
+    /* FORM PAGE */
+
+    .join form {
+        display: block;
+    }
+    fieldset input, textarea{
+        height: 2rem;
+    }
+    textarea {
+        height: 4rem;
+    }
+    table {
+        margin: 0;
+        scale: .85;
+    }
+    fieldset label.sbs {
+        display: block;
+    }
+    fieldset label.sbs input{
+        padding: none;
+        display: block;
+        height: 1.5rem;
+    }
+
+
+    /* FOOTER */
     footer {
         bottom: auto;
     }
