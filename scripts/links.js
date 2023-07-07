@@ -3,7 +3,7 @@ const linksURL = "https://erikrutledge.github.io/wdd230/data/links.json";
 const container = document.querySelector('#links');
 
 async function getLinks() {
-    const response = await fetch('../data/links.json'); //linksURL
+    const response = await fetch('linksURL'); //../data/links.json
     const data = await response.json();
     // console.log(data);
     displayLinks(data.weeks);
