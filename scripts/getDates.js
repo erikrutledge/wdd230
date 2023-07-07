@@ -6,5 +6,5 @@ let year = date.getFullYear();
 let fullDate = `${day}/${month}/${year}`;
 let modified = document.lastModified;
 
-document.getElementById('year').innerHTML = `&copy${year} | Erik Rutledge <br> United States of America`
-document.getElementById('lastModified').innerHTML = `Last Modified - ${modified}`
+document.getElementById('year').innerHTML = year
+document.getElementById('lastModified').innerHTML = modified
