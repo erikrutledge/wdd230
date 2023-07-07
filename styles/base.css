@@ -105,7 +105,16 @@ ul {
     margin: 1rem;
     background-color: var(--accent2);
     padding-bottom: 5px;
+    text-align: center;
 }
+.card ul {
+    text-align: left;
+}
+
+.card img {
+    box-shadow: none;
+}
+
 h2 {
     text-align: center;
     border-bottom:1px solid var(--text);

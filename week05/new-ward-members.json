@@ -1,0 +1,19 @@
+{
+"familyName" : "Rutledge",
+"moveInDate" : "6/25/2023",
+"familySize" : 2,
+"visited" : true,
+"familyMembers" : [
+    {
+        "name" : "Erik",
+        "gender" : "male",
+        "birthday" : "3/2/1999"
+    },
+
+    {
+        "name" : "Chrissy",
+        "gender" : "female",
+        "birthday" : "3/31/1999"
+    }
+]
+}

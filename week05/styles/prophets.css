@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(57, 40, 170);
+    text-align: center;
+}
+h1 {
+    font-weight: 800;
+    font-style: bolder;
+}
+h2 {
+    margin-bottom: .5rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    border: solid 1px gray;
+    background-color: #d2d1d1;
+    box-shadow: 5px;
+    padding: 1rem;
+}
+
+section {
+    margin: .25rem;
+    background-color: rgb(191, 185, 229);
+    border: 1px solid slateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: .25rem;
+    margin: 0px;
+}
+
+img {
+    width: 70%;
+    max-width: 320px;
+    height: auto;
+}
+
+footer {
+    font-weight: 700;
+    font-size: larger;
+    padding: 1rem;
+}
