@@ -1,0 +1,67 @@
+{
+"members": [
+    {
+        "name": "Wood River Farmers' Market",
+        "address": "P.O. Box 216",
+        "phone": "208-720-9929",
+        "email": "wrfarmersmarket@gmail.com",
+        "website": "http://wrfarmersmarket.org/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/fm-icon.webp",
+        "membership": "Bronze"
+    },
+    {
+        "name": "Hank and Sylvie's",
+        "address": "471 Leadville Ave. N",
+        "email": "home@hankyandsylvies.com",
+        "phone": "208-726-0115",
+        "website": "https://hankandsylvies.com/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/h&s-icon.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "5b Foods",
+        "address": "511 Leadville Ave. N",
+        "email": "5bfruitketchum@gmail.com",
+        "phone": "201-721-7627",
+        "website": "https://www.5bfoods.com/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/5b-icon.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Big Wood Bread",
+        "address": "271 Northwood Way",
+        "email": "",
+        "phone": "208-726-2035",
+        "website": "https://bigwoodbread.com/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/bwb-icon.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Sun Valley Guides",
+        "address": "401 Lewis Street",
+        "email": "info@svguides.com",
+        "phone": "208-721-0290",
+        "website": "https://svguides.com/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/svg-icon.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Blaine County Historical Museum",
+        "address": "218 North Main Street",
+        "email": "bchistoricalmusuem@gmail.com",
+        "phone": "208-788-1801",
+        "website": "https://www.bchistoricalmuseum.org/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/bchm-icon.webp",
+        "membership": "Non-profit"
+    },
+    {
+        "name": "Erik's Games",
+        "address": "123 Fake Road",
+        "email": "erik.rutledge14@gmail.com",
+        "phone": "208-867-5309",
+        "website": "https://erikrutledge.github.io/wdd230/",
+        "icon": "https://erikrutledge.github.io/wdd230/chamber/images/eriks-icon.webp",
+        "membership": "Gold"
+    }
+]
+}

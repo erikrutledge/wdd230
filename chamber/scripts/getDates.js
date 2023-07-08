@@ -16,6 +16,7 @@ const welcomeMessage = document.querySelector(".welcome");
 const today = document.querySelector(".today");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 let lastVisited = localStorage.getItem("lastVisited") || 0;
+
 today.textContent = `Today is ${weekday[date.getDay()]}`
 
 // Is this the first visit?
