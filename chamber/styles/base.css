@@ -224,6 +224,57 @@ tbody tr:nth-child(even) {
 	background-color: rgb(252, 231, 202);
 }
 
+/* DIRECTORY */
+
+.menu {
+    padding: 3rem 1rem 1rem 1rem;
+}
+.menu #btn {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 218, 145);
+    padding: 1rem;
+    margin: 1rem;
+    width: 8rem;
+    font-size: larger;
+}
+
+/* grid elements */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 1rem;
+    margin: 1rem;
+}
+#grid div {
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    border: solid 10px rgb(255, 218, 145);
+    margin: .5rem;
+}
+#grid img {
+    max-width: 200px;
+}
+
+/* list elements */
+#table {
+    display: inline;
+    width: 100%;
+
+}
+#table table {
+    max-width: none;
+}
+#table td{
+    text-align: left;
+}
+#table tr:nth-child(odd) {
+	background-color: rgb(255, 218, 145);
+}
+#table a {
+    text-decoration: underline;
+}
 
 
 /* FOOTER */
@@ -236,5 +287,3 @@ footer {
     text-align: center;
     border-top: 1px solid black;
 }
-
-

@@ -2,6 +2,7 @@
 "members": [
     {
         "name": "Wood River Farmers' Market",
+        "alias": "wrfm",
         "address": "P.O. Box 216",
         "phone": "208-720-9929",
         "email": "wrfarmersmarket@gmail.com",
@@ -11,6 +12,7 @@
     },
     {
         "name": "Hank and Sylvie's",
+        "alias": "h&s",
         "address": "471 Leadville Ave. N",
         "email": "home@hankyandsylvies.com",
         "phone": "208-726-0115",
@@ -20,6 +22,7 @@
     },
     {
         "name": "5b Foods",
+        "alias": "5b",
         "address": "511 Leadville Ave. N",
         "email": "5bfruitketchum@gmail.com",
         "phone": "201-721-7627",
@@ -29,6 +32,7 @@
     },
     {
         "name": "Big Wood Bread",
+        "alias": "bwb",
         "address": "271 Northwood Way",
         "email": "",
         "phone": "208-726-2035",
@@ -38,6 +42,7 @@
     },
     {
         "name": "Sun Valley Guides",
+        "alias": "svg",
         "address": "401 Lewis Street",
         "email": "info@svguides.com",
         "phone": "208-721-0290",
@@ -47,6 +52,7 @@
     },
     {
         "name": "Blaine County Historical Museum",
+        "alias": "bchm",
         "address": "218 North Main Street",
         "email": "bchistoricalmusuem@gmail.com",
         "phone": "208-788-1801",
@@ -56,6 +62,7 @@
     },
     {
         "name": "Erik's Games",
+        "alias": "eg",
         "address": "123 Fake Road",
         "email": "erik.rutledge14@gmail.com",
         "phone": "208-867-5309",
