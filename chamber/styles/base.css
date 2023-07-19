@@ -29,12 +29,16 @@ nav {
 nav ul {
     display: flex;
     list-style-type: none;
+    padding-top: .75rem;
 }
 nav ul li {
     flex: 1 1 100%;
-    padding: 1rem;
-    margin: 1rem;
     font-size: 20px;
+}
+.navigation li a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
 }
 nav ul li:hover {
     background-color: #fff;
@@ -111,6 +115,9 @@ nav ul li:hover {
 }
 .card p {
     margin: 1rem;
+}
+.card img {
+    width: 30%;
 }
 
 /* DISCOVER PAGE */
